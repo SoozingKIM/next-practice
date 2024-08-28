@@ -1,0 +1,22 @@
+@url=http://loclahost:3000
+
+GET {{url}}/api/books
+
+### 
+POST {{url}}/api/books
+
+{
+    "title": "Book Title",
+    "writer": "jade",
+}
+
+###
+PATCH  {{url}}/api/books/3
+
+{
+    "title":"new title"
+}
+
+### 
+
+DELETE {{url}}/api/books/1
