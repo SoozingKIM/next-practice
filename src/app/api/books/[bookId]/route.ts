@@ -26,11 +26,11 @@ export async function PATCH(request: Request, { params: { bookId } }: Params) {
   return Response.json(book);
 }
 
-export async function DELETE(
-  _request: Request,
-  { params: { bookId } }: Params
-) {
-  const idx = books.findIndex((book)=>)
-  const book = books.find((book) => book.id === +bookId);
-  return Response.json(book);
-}
+// export async function DELETE(
+//   _request: Request,
+//   { params: { bookId } }: Params
+// ) {
+//   const idx = books.findIndex((book)=>)
+//   const book = books.find((book) => book.id === +bookId);
+//   return Response.json(book);
+// }

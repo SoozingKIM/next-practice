@@ -1,6 +1,12 @@
-@url=http://loclahost:3000
+@url=http://localhost:3000
 
+### list
 GET {{url}}/api/books
+
+### search with header
+GET {{url}}/api/books?q=1
+Authorization: Bearer xxx
+user-agent: Soo
 
 ### 
 POST {{url}}/api/books
